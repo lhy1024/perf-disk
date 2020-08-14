@@ -74,6 +74,7 @@ if [[ "$option" == "close" ]];then
 	close pidstat
 	close funcgraph
 	close iosnoop
+	close trace_pipe
 fi
 
 observe_all
