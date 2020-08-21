@@ -53,4 +53,4 @@ git clone https://github.com/brendangregg/perf-tools
 
 ### 清理
 
-如果发现 iosnoop 或 funcgraph 无法正常运行，且日志中查看到`ERROR: ftrace may be in use by PID 186161 /var/tmp/.ftrace-lock`，请关闭其他使用 ftrace 程序，如果仍然无法运行，可执行 bash perf.sh clean
+如果发现 iosnoop 或 funcgraph 无法正常运行，且日志中查看到`ERROR: ftrace may be in use by PID 186161 /var/tmp/.ftrace-lock`，请关闭其他使用 ftrace 程序，如果仍然无法运行，可执行 `bash perf.sh clean`
